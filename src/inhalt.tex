@@ -17,9 +17,10 @@ Das Finanzamt ist für die Festsetzung und Erhebung von Steuern auf das Einkomme
 
 Zur Vereinfachung der Bearbeitung der Steuererklärungen wurde 2003 das Projekt ELSTER (\grq{}Elektronische STeuerERklärung\grq{}) ins Leben gerufen. Nachdem in den letzten Jahren ein Desktopclient gepflegt wurde, verlagerte sich der Schwerpunkt der Entwicklung hin zu einer vollständigen Onlinebearbeitung der Steuererklärung. Hierdurch konnten Entwicklungskosten eingespart werden und eine Interoperabilität zwischen verschiedenen Betriebssystemen hergestellt werden.
 
-Für die Onlineanwendung \grq{}Mein Elster\grq{} wird seitens der Finanzverwaltung ab 2019 keine Desktopanwendung mehr angeboten. 
+Für die Onlineanwendung \grq{}Mein Elster\grq{} wird seitens der Finanzverwaltung ab 2019 keine Desktopanwendung mehr angeboten.
+Um den durchaus komplizierten Registrierungsprozess zu veranschaulichen wurden Erklärvideos produziert und auf Youtube veröffentlicht. Die Verweise zu diesen Videos werden auf der Webseite aber nicht immer wahrgenommen und genutzt. 
 
-Hier setzt das Konzeptpapier und die Hausarbeit an. Es soll eine Tablet-App erstellt werden, die die Registrierung bei \grq{}Mein Elster\grq{} erleichtert und bei der Erstellung der Steuererklärung unterstützt.
+Hier setzt das Konzeptpapier und die Hausarbeit an. Es soll eine Tablet-App erstellt werden, die die Registrierung bei \grq{}Mein Elster\grq{} erleichtert und bei der Erstellung der Steuererklärung unterstützt. Hierbei soll auch eine native Einbindung der Videos genutzt werden.
 
 
 
@@ -31,31 +32,49 @@ Hier setzt das Konzeptpapier und die Hausarbeit an. Es soll eine Tablet-App erst
 %Besondere Interessen oder Ansprüche?
 %Usw
 Die App richtet sich an Steuerpflichtige die Ihre Steuererklärung über \grq{}Mein Elster\grq{} erstellen wollen bzw. müssen.
-Diese sind regelmäßig nicht steuerlich vorgebildet. Eine besondere Einschränkung auf ein bestimmtes Alter oder eine sonstige Gruppierung kann jedoch nicht erfolgen. Einzig zu erwähnen wäre, dass die App sich nicht an Kinder richtet, da diese nicht zuletzt aufgrund fehlender Geschäftsfähigkeit ( vgl. §104 \cite{bgb})
+Diese sind regelmäßig nicht steuerlich vorgebildet. Eine besondere Einschränkung auf ein bestimmtes Alter oder eine sonstige Gruppierung kann jedoch nicht erfolgen. Einzig zu erwähnen wäre, dass die App sich nicht an Kinder richtet, da diese nicht zuletzt aufgrund fehlender Geschäftsfähigkeit ( vgl. §104 \cite{bgb}) keine Steuererklärungen abgeben können. Somit stellen sich aber auch Anforderungen im Sinne der Barrierefreiheit ein, da auch beeinträchtigte Steuerpflichtige die App benutzen könnten.
 
 
 \section{DEFINE}\label{DEFINE}
 
 
-\subsection{Befragung von potentiellen Nutzern und/oder Kollegen}\label{Befragung von potentiellen Nutzern und/oder Kollegen}
-Stellen Sie bitte folgende Fragen an Probanden Ihrer Zielgruppe/ oder falls diese nicht erreichbar sind Ihren Kollegen:
+\subsection{Nutzerbefragung}%\label{Befragung von potentiellen Nutzern und/oder Kollegen}
+%Stellen Sie bitte folgende Fragen an Probanden Ihrer Zielgruppe/ oder falls diese nicht erreichbar sind Ihren Kollegen:
 
-Fällt Ihnen spontan ein digitales Produkt/ Anwendung ein, die Sie ich im {Projektumfeld} wünschen würden?
+Es wurden vier potentielle Nutzer aus dem Bekanntenkreis des Autoren in einer offenen Gesprächsrunde befragt. Die Antworten wurden nicht direkt protokolliert, sondern als Gedächtnisprotokoll des Autors zusammengefasst.
 
-Welche Abläufe/ Strukturen/ organisatorische Regelungen könnten in Ihrer Meinung nach (im Projektumfeld) verbessert werden?
+Es wurden folgende Fragen gestellt:
+\begin{itemize}
+\item Wo sind für Sie die größten Probleme, wenn Sie sich die Registrierung bei Mein Elster betrachten?
 
-Welche Ausgabemedien (Tablet, Smartphone, …) nutzen Sie am liebsten?
+\item Wie könnte der Registrierungsprozess Ihrer Meinung nach verbessert werden?
 
-Kennen Sie eine digitale App/ Anwendung, die Sie sich gerne auch im Kontext {Ihres Projektumfeldes} vorstellen können?
+\item Welche Ausgabemedien (Tablet, Smartphone, …) nutzen Sie am liebsten?
 
-(Gerne können Sie auch weitere Fragen formulieren, die Sie an die Probanden stellen und die Ihnen Inspirationen liefern können. )
+\item Kennen Sie eine digitale App/ Anwendung, die Sie sich gerne auch in diesem Kontext vorstellen können?
+
+%(Gerne können Sie auch weitere Fragen formulieren, die Sie an die Probanden stellen und die Ihnen Inspirationen liefern können. )
+\end{itemize}
 
 
 \subsection{Ergebnisse der Befragung}\label{Ergebnisse der Befragung}
-Stellen Sie hier bitte kurz die Ergebnisse der Befragung dar.
+
+\subsubsection{Probleme bei der Registrierung}
+Die Befragten äußerten einstimmig, dass vor allem die Wartezeit zwischen den Registrierungsschritten zu Problemen führt. Man wartet zwei Wochen, bis der Brief mit dem Aktivierungscode eingeht und vergisst in dieser Zeit, was man mit diesem Code zu tun hat. Die dazugehörige E-Mail mit der Aktivierungs-ID verschwindet während der Wartezeit im E-Mail-Programm.
+
+\subsubsection{Verbesserungsmöglichkeiten}
+Anschließend an die Problematik wurde von den Befragten vorgeschlagen, den Registrierungsprozess so darzustellen, dass die Anwendung die folgenden Schritte deutlicher darstellt. Unter Anderem wurden Vergleiche zu einem Navigationsgerät gezogen, welches den nächsten Schritt in einfacher, klar erkennbarer Form darstellt.
+
+\subsubsection{Beliebtes Eingabegerät}
+Hier wurden vor allem Smartphone und Tablet genannt. Einer der befragten gab an, am liebsten seinen Windows 98-PC verwendet zu haben. Auf Nachfrage war der PC jedoch seit gut 10 Jahren nicht mehr in Betrieb.
+
+\subsubsection{Beliebte Anwendung}
+Wenn man überhaupt von einer \grq{}beliebten\grq{} Anwendung sprechen konnte, wurde die Anwendung ElsterFormular, die bis zum Veranlagunszeitraum 2017 von der Finanzverwaltung kostenfrei zur Verfügung gestellt wird, genannt. Dies wurde damit begründet, dass die Eingaben in einem digitalen Formular durchgeführt werden, das in der Optik den alten Papiervordrucken entsprach. Eine Anwenderin erzählte von dem Papiervordruck, den sie vor 12 Jahren mit Hilfe Ihres damaligen Steuerberaters ausgefüllt hat und seit dieser Zeit zum Abschreiben verwendet.
 
 \subsection{Projektziel}\label{Projektziel}
-Leiten Sie aus den Ergebnissen der Befragung ein Projektziel ab, welches Sie kurz formulieren
+
+Aus den Befragungen ging hervor, dass sich die Steuerpflichtigen eine einfachere Anleitung zur Registrierung bei \grq{}Mein Elster\grq{} wünschen. Auch geben sie die Erklärungsdaten lieber in die vertrauten Vordrucke ein, als dies über ein Webformular zu erledigen.
+
 
 % Seitenumbruch
 % \newpage
@@ -64,7 +83,9 @@ Leiten Sie aus den Ergebnissen der Befragung ein Projektziel ab, welches Sie kur
 
 
 \subsection{Produktidee (zur Lösung des Projektziels)}\label{Produktidee (zur Lösung des Projektziels) }
-Entwickeln Sie eine Produktidee, diese Sie gerne als Prototyp als Lösungsansatz für das Projektziel umsetzen möchten.
+%Entwickeln Sie eine Produktidee, diese Sie gerne als Prototyp als Lösungsansatz für das Projektziel umsetzen möchten.
+Die App, die nun auf einem Tablet realisiert werden soll, sollte den Fortschritt der Registrierung mitverfolgen und beim Start anzeigen, welchen Schritt man als nächstes durchführen muss, und was dafür zu erledigen ist. Nach der Registrierung sollte eine Auswahl von Steuererklärungen dargestellt werden, die der Steuerpflichtige bearbeiten kann. Auch eine Übersicht über bereits erstellten Erklärungen sollte bereit gestellt werden. Als Namen wurde \grqq{}\textbf{EinfachElsterApp}\grqq{} gewählt
+
 
 \section{PROTOTYPE}\label{PROTOTYPE}
 
