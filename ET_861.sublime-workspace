@@ -83,7 +83,7 @@
 			"file": "src/inhalt.tex",
 			"settings":
 			{
-				"buffer_size": 10046,
+				"buffer_size": 10213,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -101,7 +101,16 @@
 			"file": "src/konfiguration.tex",
 			"settings":
 			{
-				"buffer_size": 3799,
+				"buffer_size": 3800,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Markus/AppData/Local/Temp/Temp1_AI801_Aufgaben.zip/AI801_Aufgaben/src/ai801_aufgaben/AI801_Aufgaben.java",
+			"settings":
+			{
+				"buffer_size": 5105,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -210,7 +219,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -219,15 +228,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10046,
+						"buffer_size": 10213,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3949,
-								3949
+								5457,
+								5457
 							]
 						],
 						"settings":
@@ -235,10 +244,10 @@
 							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 379.0,
+						"translation.y": 842.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -266,7 +275,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -275,7 +284,37 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3799,
+						"buffer_size": 3800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1028,
+								1028
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Markus/AppData/Local/Temp/Temp1_AI801_Aufgaben.zip/AI801_Aufgaben/src/ai801_aufgaben/AI801_Aufgaben.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5105,
 						"regions":
 						{
 						},
@@ -288,15 +327,15 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax",
+							"syntax": "Packages/Java/Java.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1458.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
